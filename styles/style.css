@@ -1,0 +1,12 @@
+body{
+  background-image: url(http://images.entertainment.ie/images_content/rectangle/620x372/Cersei-wine-3.jpg);
+}
+
+h1{ 
+
+  text-align: center;
+}
+.button{
+  display: inline-block;
+  text-align: center;
+}
