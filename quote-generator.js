@@ -15,9 +15,10 @@ $(document).ready(function() {
       //use this function if succesful
       success : function (data) {
         //display quote and character in quoteDisplay div
-        display.innerHTML = (data["quote"] + " - " + data["character"]);
+        display.innerHTML = data.quote + " - <em>" + data.character+"</em>";
       }
     })
+    //it doesn't open href
     return false;
   });
 });
