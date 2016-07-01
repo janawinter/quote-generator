@@ -14,9 +14,8 @@ $(document).ready(function() {
       dataType: 'json',
       //use this function if succesful
       success : function (data) {
-
+        //display quote and character in quoteDisplay div
         display.innerHTML = (data["quote"] + " - " + data["character"]);
-        console.log (data);
       }
     })
     return false;
