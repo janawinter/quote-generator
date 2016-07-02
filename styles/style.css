@@ -24,6 +24,7 @@ h1 {
     text-align: center;
 }
 #quoteDisplay {
+    background-color: white;
     text-align: center;
     width:800px;
     margin: 0 auto;
